@@ -7,8 +7,8 @@
     <author>Torn_Ares</author>
 </authors>
 <rules>
-    <rule>✚No hacer"Carpet Bomb", el carpet bomb es considerado como tirar tnt desde una plataforma en lo alto, esta regla no aplica colocando tnt en un radio de 5 bloques de alguna estructura.</rule>
-    <rule>✚Spawnkill es aceptable solo si se esta destruyendo el core con pico de diamante, deja de ser valido despues de el minuto en que finalizo dicho acto.</rule>
+    <rule>1-No hacer"Carpet Bomb", el carpet bomb es considerado como tirar tnt desde una plataforma en lo alto, esta regla no aplica colocando tnt en un radio de 5 bloques de alguna estructura.</rule>
+    <rule>2-Spawnkill es aceptable solo si se esta destruyendo el core con pico de diamante, deja de ser valido despues de el minuto en que finalizo dicho acto.</rule>
 </rules>
 <teams>
     <team color="dark red" max="16">Red Team</team>
@@ -23,14 +23,14 @@
     <cuboid min="57,-oo,-206" max="-91,90,-55"/> <!-- Main area -->
 </playable>
 <regions>
-    <apply block="deny-all" message="No puedes modificar la Piscina"
+    <apply block="deny-all" message="✚ No puedes modificar la Piscina"
         <rectangle min="33,-93" max="26,-86"/>
         <rectangle min="-66,-86" max="-59,-93"/>
     </apply>
-    <apply block="blocks-only" message="You may not destroy chests on this map.">
+    <apply block="blocks-only" message="✚ You may not destroy chests on this map.">
         <cuboid min="57,-oo,-206" max="-91,90,-55"/>  <!-- playable region -->
     </apply>
-    <apply block="no-placing-chests" message="You may place chests on this map">
+    <apply block="no-placing-chests" message="✚ You may place chests on this map">
         <cuboid min="57,-oo,-206" max="-91,90,-55"/>  <!-- playable region -->
     </apply>
 </regions>
