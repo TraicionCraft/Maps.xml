@@ -63,11 +63,8 @@
         <cuboid min="-58,29,-2" max="-54,29,2"/>
     </default>
 </spawns>
-<modes>
-    <mode after="10m" material="gold block" name="GOLD CORE MODE"/>
-    <mode after="30m" material="glass" name="GLASS CORE MODE"/>
-</modes>
-<cores material="obsidian" leak="4" mode-changes="true">
+<core>    
+    <cores material="obsidian" leak="4" mode-changes="true">
     <core team="blue">
         <cuboid min="-3,17,-45" max="3,23,-39"/>
     </core>
@@ -75,22 +72,11 @@
         <cuboid min="-3,17,39" max="3,23,45"/>
     </core>
 </cores>
-<destroyables owner="blue" materials="ender stone">
-    <destroyable name="Left Monument">
-        <cuboid min="-26,11,-31" max="-22,15,-27"/>
-    </destroyable>
-    <destroyable name="Right Monument">
-        <cuboid min="22,11,-31" max="26,15,-27"/>
-    </destroyable>
-</destroyables>
-<destroyables owner="red" materials="ender stone">
-    <destroyable name="Left Monument">
-        <cuboid min="22,11,27" max="26,15,31"/>
-    </destroyable>
-    <destroyable name="Right Monument">
-        <cuboid min="-26,11,27" max="-22,15,31"/>
-    </destroyable>
-</destroyables>
+<modes>
+    <mode after="10m" material="gold block" name="GOLD CORE MODE"/>
+    <mode after="30m" material="glass" name="GLASS CORE MODE"/>
+</modes>
+<cores material="obsidian" leak="4" mode-changes="true">
 <toolrepair>
     <tool>diamond sword</tool>
     <tool>bow</tool>
