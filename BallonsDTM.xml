@@ -3,7 +3,7 @@
 <include src="tutorial.xml"/>
 <name>BalloonsDTM</name>
 <version>2.2.1</version>
-<objective>Destroy the enemy team's monument!</objective>
+<objective>Destruye el monumento enemigo!</objective>
 <authors>
     <author>Pandaboy999</author>
 </authors>
