@@ -1,2 +1,2 @@
 # Mapas-de-BraveHearts
-Mismos mapas que octc
+xml de los mapas del servidor
