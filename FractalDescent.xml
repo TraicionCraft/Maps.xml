@@ -63,7 +63,7 @@
         <cuboid min="-58,29,-2" max="-54,29,2"/>
     </default>
 </spawns>
-<core>    
+<cores>    
     <cores material="obsidian" leak="4" mode-changes="true">
     <core team="blue">
         <cuboid min="-3,17,-45" max="3,23,-39"/>
