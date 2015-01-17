@@ -2,13 +2,13 @@
 <map proto="1.3.0">
 <name>Iris</name>
 <version>1.0</version>
-<objective>Leak the lava contained inside the opposing teams core to the void</objective>
+<objective>Likea la lava del core del equipo contrario</objetive>
 <authors>
     <author>Torn_Ares</author>
 </authors>
 <rules>
-    <rule>Do not carpet bomb. Carpet bombing is defined as dropping TNT on enemy players/structures from a high enough location as to put you at little risk to enemy arrow fire originating from the ground. The recommended acceptable height is 5 blocks above any enemy structures. </rule>
-    <rule>Spawn killing is only acceptable if a team mate is simultaneously breaking the core with a diamond pickaxe (unless they are unavailable), spawn killing must stop within a minute of any core breaking activity ceasing.</rule>
+    <rule>✚No hacer"Carpet Bomb", el carpet bomb es considerado como tirar tnt desde una plataforma en lo alto, esta regla no aplica colocando tnt en un radio de 5 bloques de alguna estructura.</rule>
+    <rule>✚Spawnkill es aceptable solo si se esta destruyendo el core con pico de diamante, deja de ser valido despues de el minuto en que finalizo dicho acto.</rule>
 </rules>
 <teams>
     <team color="dark red" max="16">Red Team</team>
@@ -23,7 +23,7 @@
     <cuboid min="57,-oo,-206" max="-91,90,-55"/> <!-- Main area -->
 </playable>
 <regions>
-    <apply block="deny-all" message="You may not edit the spawn pools">
+    <apply block="deny-all" message="No puedes modificar la Piscina"
         <rectangle min="33,-93" max="26,-86"/>
         <rectangle min="-66,-86" max="-59,-93"/>
     </apply>
