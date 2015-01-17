@@ -2,12 +2,12 @@
 <map proto="1.0.0">
 <name>Blocks DTC</name>
 <version>1.3.0</version>
-<objective>Leak lava from the enemy's obsidian core into the void.</objective>
+<objective>Likea la lava del core de obsidiana enemigo.</objective>
 <authors>
     <author>pepsidawg00</author>
 </authors>
 <rules>
-    <rule>Do not block spawn</rule>
+    <rule>No Bloquees el spawn</rule>
 </rules>
 <teams>
     <team color="blue" max="50">Blue Team</team>
@@ -44,15 +44,15 @@
     <cuboid name="blue-chest4" min="113,47,78" max="112,42,80"/>
     <cuboid name="blue-chest5" min="113,47,83" max="112,42,85"/>
     </union>
-    <apply block="deny-all" message="You may not modify storage room!">
+    <apply block="deny-all" message="No puedes modificar la sala de cofres!">
         <region name="blue-storage"/>
         <region name="red-storage"/>
     </apply>
-    <apply block="deny-all" message="You may not break the chests!">
+    <apply block="deny-all" message="Tu no puedes romper el cofre!">
         <region name="tnt-chests"/>
     </apply>
     <!-- Main Area -->
-    <apply block="deny-all" message="You may not build in the void on the side">
+    <apply block="deny-all" message="No puedes construir en el vacio">
     <negative name="playable-inverse">
         <rectangle min="131,40" max="-97,104"/>
     </negative>
