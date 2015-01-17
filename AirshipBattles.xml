@@ -6,7 +6,7 @@
 
 <objective>
 
-Leak lava from the enemy's obsidian core into the void.
+Rompe el core del equipo enemigo.
 
 </objective>
 
@@ -20,7 +20,7 @@ Leak lava from the enemy's obsidian core into the void.
 
 <rules>
 
-<rule>Dispensers are disabled!</rule>
+<rule>Dispensadores estan desactivados!</rule>
 
 </rules>
 
@@ -40,13 +40,13 @@ Leak lava from the enemy's obsidian core into the void.
 
 <rules>
 
-<rule>No building at spawn</rule>
+<rule>✚ No puedes construir en el spawn</rule>
 
 <rule>No fighting at spawn</rule>
 
-<rule>No using a bucket on lava</rule>
+<rule>✚ No puedes usar esto</rule>
 
-<rule>No damaging your own core</rule>
+<rule>✚ No puedes romper tu propio monumento</rule>
 
 </rules>
 
