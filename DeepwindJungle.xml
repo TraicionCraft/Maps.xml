@@ -82,7 +82,7 @@
 		<apply block="only-blue" use="only-blue">
 			<region name="blue-wool-rooms"/>
 		</apply>
-		<apply enter="only-blue" message="No puedes entrar a tu propia lana!">
+		<apply enter="only-blue" message="✚ No puedes entrar a tu propia lana!">
 			<region name="blue-wool-rooms"/>
 		</apply>
 		<union name="red-wool-rooms">
@@ -92,24 +92,24 @@
 		<apply block="only-red" use="only-red">
 			<region name="red-wool-rooms"/>
 		</apply>
-		<apply enter="only-red" message="No puedes entrar a tu propia lana!">
+		<apply enter="only-red" message="✚ No puedes entrar a tu propia lana!">
 			<region name="red-wool-rooms"/>
 		</apply>
-		<apply block-place="no-void" message="No puedes colocar bloques en el vacio!">
+		<apply block-place="no-void" message="✚ No puedes colocar bloques en el vacio!">
 			<negative>
 				<rectangle min="-31,46" max="31,-46"/>
 			</negative>
 		</apply>
 <!--    spawn protection    -->
-	<apply block="deny-all" message="No puedes romper ni colocar bloques en tu spawn!">
+	<apply block="deny-all" message="✚ No puedes romper ni colocar bloques en tu spawn!">
 		<rectangle name="blue-spawn" min="-7,-55" max="7,-82"/>
 		<rectangle name="red-spawn" min="-7,56" max="7,83"/>
 	</apply>
 <!--    prevent teams from entering each other's spawns    -->
-	<apply enter="only-blue" message="No puedes entrar al spawn enemigo!">
+	<apply enter="only-blue" message="✚ No puedes entrar al spawn enemigo!">
 		<region name="blue-spawn"/>
 	</apply>
-	<apply enter="only-red" message="No puedes entrar al spawn enemigo!">
+	<apply enter="only-red" message="✚ No puedes entrar al spawn enemigo!">
 		<region name="red-spawn"/>
 	</apply>
 	</regions>
