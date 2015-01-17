@@ -86,21 +86,21 @@
             <block>0.5,26,-47.5</block>
         </complement>
     </apply>
-    <apply block="deny-all" message="You may not build outside of the playing field!">
+    <apply block="deny-all" message="✚ You may not build outside of the playing field!">
         <negative>
             <region name="playable"/>
         </negative>
     </apply>
-    <apply block="deny-all" message="Don't break the spawns!">
+    <apply block="deny-all" message="✚ Don't break the spawns!">
         <region name="red-spawn"/>
     </apply>
-    <apply block="deny-all" message="Don't break the spawns!">
+    <apply block="deny-all" message="✚ Don't break the spawns!">
         <region name="blue-spawn"/>
     </apply>
-    <apply enter="only-red" message="You may not enter `4Red Team`c's spawn area!">
+    <apply enter="only-red" message="✚ You may not enter `4Red Team`c's spawn area!">
         <region name="red-spawn"/>
     </apply>
-    <apply enter="only-blue" message="You may not enter `9Blue Team`c's spawn area!">
+    <apply enter="only-blue" message="✚ You may not enter `9Blue Team`c's spawn area!">
         <region name="blue-spawn"/>
     </apply>
     <apply block="deny-all">
