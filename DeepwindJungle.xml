@@ -2,7 +2,7 @@
 	<name>Deepwind Jungle</name>
 	<version>1.1.4</version>
 	<objective>
-		Retrieve the wool from the enemy's side and place it on your team's monument
+		Captura la lana del enemigo y colocala en el monumento
 	</objective>
 	<authors>
 		<author>PandaBattalion</author>
@@ -81,7 +81,7 @@
 		<apply block="only-blue" use="only-blue">
 			<region name="blue-wool-rooms"/>
 		</apply>
-		<apply enter="only-blue" message="You may not enter your own wool room!">
+		<apply enter="only-blue" message="No puedes entrar a tu propia lana!">
 			<region name="blue-wool-rooms"/>
 		</apply>
 		<union name="red-wool-rooms">
@@ -91,24 +91,24 @@
 		<apply block="only-red" use="only-red">
 			<region name="red-wool-rooms"/>
 		</apply>
-		<apply enter="only-red" message="You may not enter your own wool room!">
+		<apply enter="only-red" message="No puedes entrar a tu propia lana!">
 			<region name="red-wool-rooms"/>
 		</apply>
-		<apply block-place="no-void" message="You may not place blocks in the void!">
+		<apply block-place="no-void" message="No puedes colocar bloques en el vacio!">
 			<negative>
 				<rectangle min="-31,46" max="31,-46"/>
 			</negative>
 		</apply>
 <!--    spawn protection    -->
-	<apply block="deny-all" message="You may not break or place blocks in your spawn!">
+	<apply block="deny-all" message="No puedes romper ni colocar bloques en tu spawn!">
 		<rectangle name="blue-spawn" min="-7,-55" max="7,-82"/>
 		<rectangle name="red-spawn" min="-7,56" max="7,83"/>
 	</apply>
 <!--    prevent teams from entering each other's spawns    -->
-	<apply enter="only-blue" message="You cannot enter the other team's spawn!">
+	<apply enter="only-blue" message="No puedes entrar al spawn enemigo!">
 		<region name="blue-spawn"/>
 	</apply>
-	<apply enter="only-red" message="You cannnot enter the other team's spawn!">
+	<apply enter="only-red" message="No puedes entrar al spawn enemigo!">
 		<region name="red-spawn"/>
 	</apply>
 	</regions>
