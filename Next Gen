@@ -68,8 +68,8 @@
     <regions>
         <!-- blue wool room protection (these are the wools blue has to get) -->
         <union name="blue-wool-rooms">
-            <rectangle name="purple-room" min="-25,95" max="-39,84"/>
-            <rectangle name="yellow-room" min="25,84" max="39,95"/>
+            <rectangle name="purple-room" min="-24.0,96.0" max="-39.0,83.0"/>
+            <rectangle name="yellow-room" min="25.0,83.0" max="40.0,96.0"/>
         </union>
         <apply block="only-blue" use="only-blue-usage">
             <region name="blue-wool-rooms"/>
@@ -79,8 +79,8 @@
         </apply>
         <!-- red wool room protection (these are the wools red has to get) -->
         <union name="red-wool-rooms">
-            <rectangle name="orange-room" min="-25,-70" max="-39,-81"/>
-            <rectangle name="lime-room" min="39,-70" max="25,-81"/>
+            <rectangle name="orange-room" min="-24.0,-68.0" max="-39.0,-81.0"/>
+            <rectangle name="lime-room" min="40.0,-81.0" max="25.0,-68.0"/>
         </union>
         <apply block="only-red" use="only-red-usage">
             <region name="red-wool-rooms"/>
@@ -92,12 +92,12 @@
         <apply block-place="deny-all" message="You may not place blocks in the void!">
             <!-- blue side -->
             <rectangle min="-4,-oo" max="5,-69"/>
-            <rectangle min="17,-oo" max="100,-19"/>
+            <rectangle min="17.0,-68.0" max="25.0,-18.0"/>
             <rectangle min="-16,-oo" max="-100,-19"/>
             <!-- red side -->
             <rectangle min="-4,84" max="5,oo"/>
-            <rectangle min="-100,34" max="-16,oo"/>
-            <rectangle min="17,34" max="100,oo"/>
+            <rectangle min="-16.0,83.0" max="-25.0,34.0"/>
+            <rectangle min="17.0,83.0" max="25.0,34.0"/>
         </apply>
         <!-- supply room protection -->
         <apply block="deny-all" message="You may not break or place blocks in the storage room!">
